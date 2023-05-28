@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    height: 60vh;
+    align-items: center;
+    flex-direction: row;
+}
+
+.intro {
+    flex-direction: column;
+    flex: 1;
+}
+
+.avatarContainer {
+    height: 100px;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.socialLink {
+    font-size: 24px;
+    transition: all 200ms ease-in-out;
+}
+
+.socialLink:hover {
+    scale: 140%;
+    color: var(--nextui-colors-text);
+}
